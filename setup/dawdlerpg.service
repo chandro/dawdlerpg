@@ -5,7 +5,7 @@ After=network.target auditd.service
 [Service]
 User=www-data
 Group=www-data
-ExecStart=/root/dawdlerpg/dawdle.py -o daemonize=off /root/dawdlerpg/data/dawdle.conf
+ExecStart=/usr/bin/python3 /root/dawdlerpg/dawdle.py -o daemonize=off /root/dawdlerpg/data/dawdle.conf
 Restart=on-failure
 RestartPreventExitStatus=255
 Type=simple
