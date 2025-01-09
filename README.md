@@ -4,7 +4,7 @@ DawdleRPG is an IdleRPG clone written in Python. This fork is for ubuntu it is a
 
 ## Basic Setup new
 
-sudo apt install apache2 php libapache2-mod-php php-mysql mariadb-server nano git composer -y
+sudo apt install python3 python3-pip git nano -y
 
 git clone https://github.com/chandro/dawdlerpg.git
 
