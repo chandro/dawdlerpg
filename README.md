@@ -9,8 +9,10 @@ sudo apt install apache2 php libapache2-mod-php php-mysql mariadb-server nano gi
 git clone https://github.com/chandro/dawdlerpg.git
 
 cd dawdlerpg
+
 chmod +x install.sh
-sudo ./install.sh idle.irc.com.mx
+
+sudo ./install.sh host.name
 
 ## Basic Setup (old)
 - Edit `dawdle.conf` to configure your bot.
