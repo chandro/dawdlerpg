@@ -1,9 +1,18 @@
 # DawdleRPG
 
-DawdleRPG is an IdleRPG clone written in Python.
+DawdleRPG is an IdleRPG clone written in Python. This fork is for ubuntu it is almost 98% finished.
 
-## Basic Setup
+## Basic Setup new
 
+sudo apt install apache2 php libapache2-mod-php php-mysql mariadb-server nano git composer -y
+
+git clone [https://github.com/dlowe-net/dawdlerpg.git](https://github.com/chandro/dawdlerpg.git)
+
+cd dawdlerpg
+chmod +x install.sh
+sudo ./install.sh idle.irc.com.mx
+
+## Basic Setup (old)
 - Edit `dawdle.conf` to configure your bot.
 - Run `dawdle.py <path to dawdle.conf>`
 - The data directory defaults to the parent directory of the
