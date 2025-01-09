@@ -14,8 +14,14 @@ chmod +x install.sh
 
 sudo ./install.sh host.name
 
+if you get an error on the last setp of install.sh run it manually:
+
+/usr/bin/python3 /root/dawdlerpg/dawdle.py -o daemonize=off /root/dawdlerpg/data/dawdle.conf
+
+
+
 ## Basic Setup (old)
-- Edit `dawdle.conf` to configure your bot.
+- Edit `dawdle.conf` to configure your bot. remember to use SSL port!
 - Run `dawdle.py <path to dawdle.conf>`
 - The data directory defaults to the parent directory of the
   configuration file, and dawdlerpg expects files to be in that
