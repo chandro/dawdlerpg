@@ -16,7 +16,7 @@ DIR="$(readlink -f $(dirname $0))"
 echo "Using $DIR as dawdlerpg directory."
 
 echo Installing services.
-sudo apt install apache2 php libapache2-mod-php php-mysql mariadb-server git composer nginx python3-pip -y
+sudo apt install git nginx python3-pip nano -y
 
 pip install django uwsgi Pillow
 
